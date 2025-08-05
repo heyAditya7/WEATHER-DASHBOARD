@@ -1,7 +1,7 @@
 # WEATHER-DASHBOARD
 🌤 Weather Dashboard
 A beautifully designed weather dashboard that allows users to search for real-time weather updates of any city. Built with HTML, CSS, and JavaScript, this project fetches data from the OpenWeatherMap API and presents it in a modern, user-friendly UI.
-🔗 Live Demo
+🔗 Live Demo:  https://heyaditya7.github.io/WEATHER-DASHBOARD/
 View Project :
 🚀 Features
 🌍 Search real-time weather by city
