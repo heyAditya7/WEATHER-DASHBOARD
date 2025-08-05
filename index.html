@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <button onclick="getWeatherFromInput()">Get Weather</button>
+      <div class="location" id="location">Loading...</div>
+      <div class="sun-time" id="sunTime">--:-- 🌅 — --:-- 🌇</div>
+      <div class="temp" id="temperature">--°</div>
+      <div class="weather" id="weatherMain">--</div>
+      <div class="city-image"></div>
+    </div>
+
+    <div class="right-panel">
+      <div class="header">
+        <h2>Welcome back!</h2>
+        <p>Check out today's weather information</p>
+      </div>
+      <div class="forecast">
+        <h3>Current Weather</h3>
+        <div class="forecast-grid">
+          <div class="forecast-card">Temperature<br/><strong id="info-temp">--°C</strong></div>
+          <div class="forecast-card">Feels Like<br/><strong id="info-feels">--°C</strong></div>
+          <div class="forecast-card">Humidity<br/><strong id="info-humidity">--%</strong></div>
+          <div class="forecast-card">Wind<br/><strong id="info-wind">-- km/h</strong></div>
+          <div class="forecast-card">Condition<br/><strong id="info-desc">--</strong></div>
+          <div class="forecast-card">Sunrise<br/><strong id="info-sunrise">--</strong></div>
+          <div class="forecast-card">Sunset<br/><strong id="info-sunset">--</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
